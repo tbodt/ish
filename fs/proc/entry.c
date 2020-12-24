@@ -2,6 +2,7 @@
 #include <string.h>
 #include "fs/stat.h"
 #include "fs/proc.h"
+#include "kernel/task.h"
 
 mode_t_ proc_entry_mode(struct proc_entry *entry) {
     mode_t_ mode = entry->meta->mode;
